@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SILenTik"
+    android:textSize="30sp"
+    android:textAlignment="center"
+    android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Area"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/perimeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Perimeter"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/diameter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Diameter"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/mean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mean"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/deviation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Deviation"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/smoothness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Smoothness"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/skewness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Skewness"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/uniformity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Uniformity"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/entropy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Entropy"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:minHeight="48dp"
+        android:text="Predict" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/result"/>
+
+</LinearLayout>
